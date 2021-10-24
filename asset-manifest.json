@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Portfolio-maker/static/css/main.4d7d1e0a.chunk.css",
+    "main.js": "/Portfolio-maker/static/js/main.c44df6dc.chunk.js",
+    "main.js.map": "/Portfolio-maker/static/js/main.c44df6dc.chunk.js.map",
+    "runtime-main.js": "/Portfolio-maker/static/js/runtime-main.1e3b2be7.js",
+    "runtime-main.js.map": "/Portfolio-maker/static/js/runtime-main.1e3b2be7.js.map",
+    "static/js/2.d9f71672.chunk.js": "/Portfolio-maker/static/js/2.d9f71672.chunk.js",
+    "static/js/2.d9f71672.chunk.js.map": "/Portfolio-maker/static/js/2.d9f71672.chunk.js.map",
+    "static/js/3.2c6d6375.chunk.js": "/Portfolio-maker/static/js/3.2c6d6375.chunk.js",
+    "static/js/3.2c6d6375.chunk.js.map": "/Portfolio-maker/static/js/3.2c6d6375.chunk.js.map",
+    "index.html": "/Portfolio-maker/index.html",
+    "static/css/main.4d7d1e0a.chunk.css.map": "/Portfolio-maker/static/css/main.4d7d1e0a.chunk.css.map",
+    "static/js/2.d9f71672.chunk.js.LICENSE.txt": "/Portfolio-maker/static/js/2.d9f71672.chunk.js.LICENSE.txt",
+    "static/media/Ashir K Resume-updated.33bdadfb.pdf": "/Portfolio-maker/static/media/Ashir K Resume-updated.33bdadfb.pdf",
+    "static/media/backEnd.ca903f3e.svg": "/Portfolio-maker/static/media/backEnd.ca903f3e.svg",
+    "static/media/frontEnd.7b78f5c3.svg": "/Portfolio-maker/static/media/frontEnd.7b78f5c3.svg",
+    "static/media/webDesign.731b6fe3.svg": "/Portfolio-maker/static/media/webDesign.731b6fe3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1e3b2be7.js",
+    "static/js/2.d9f71672.chunk.js",
+    "static/css/main.4d7d1e0a.chunk.css",
+    "static/js/main.c44df6dc.chunk.js"
+  ]
+}
