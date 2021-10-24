@@ -1,0 +1,44 @@
+.createProfileBasics{
+    display: flex;   
+}
+  
+.createProfileBasics__container{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 80px;
+  }
+
+  .createProfileBasics__containerMainHeading{
+    color: var(--white-color);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  .createProfileBasics__container > form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 75%;
+  } 
+
+.createProfileBasics__container > form > h5 {
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+  @media screen and (max-width: 520px) {
+    .createProfileBasics__container{
+         margin: 30px 20px;  
+    }
+   
+  }
+  @media screen and (max-width: 420px) {
+    .createProfileBasics__container > form {
+      display: flex;
+      flex-direction: row;
+    } 
+   
+  }

@@ -1,0 +1,53 @@
+.adminPage {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--background-dark-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.adminPage > button{
+  width: 250px;
+
+  align-self: center;
+}
+
+.adminPage__panels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  justify-content: center;
+}
+.adminPage__panels > a {
+  text-decoration: none;
+}
+
+.adminPage__messagePanel {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 280px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid var(--border-color);
+}
+
+@media screen and (max-width: 1199px) {
+  .adminPage {
+    flex: 1;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .adminPage {
+    width: auto;
+  }
+  .adminPage__panels {
+    margin-left: 0;
+}
+}

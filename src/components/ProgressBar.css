@@ -1,0 +1,57 @@
+.progressBar {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  flex-wrap: wrap;
+
+}
+
+.progressBar__skills{
+ display: flex;
+ flex-direction: column;
+ margin-top: 10px;
+ /* width: 50%; */
+}
+.progressBar__skills > h3{
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.progressBar__skillsValue{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+.progressBar__skillsValue > h5{
+  flex: 0.1;
+  color: var(--white-color);
+
+}
+.linearProgress{
+  margin: 10px;
+  
+}
+.progressBar__box{
+  width: 100%;
+}
+
+@media screen and (max-width: 480px){
+  .progressBar{
+    width: fit-content;
+  }
+  .progressBar__skills{
+    display: flex;
+    /* flex-direction: row; */
+  }
+  .progressBar__skills > h3{
+    font-size: medium;
+  }
+  .progressBar__skillsValue > h5{
+    font-size: small;
+  }
+  .progressBar__box{
+    width: 50vw;
+  }
+}

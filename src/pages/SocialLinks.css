@@ -1,0 +1,46 @@
+.socialLinks {
+  flex: 0.75;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: auto;
+  background-color: var(--background-dark-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.socialLinks__cv {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  /* margin: auto; */
+  margin: 50px;
+}
+
+.socialLinks__links {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.socialLinks__links > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.socialLinks__links > form > h5 {
+  margin: 10px 0;
+}
+
+.socialLinks__links
+  > form
+  > .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+  width: 80% !important;
+}
+@media screen and (max-width: 1199px) {
+  .socialLinks {
+    flex: 1;
+    width: 100%;
+  }
+}

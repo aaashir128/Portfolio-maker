@@ -1,0 +1,60 @@
+.adminPanelBox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 1.2rem;
+  border: 1px solid skyblue;
+  height: max-content;
+  width: max-content;
+  margin-bottom: 1.5rem;
+}
+
+.adminPanelBox__image {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.adminPanelBox__image > img {
+  width: 400px;
+  height: 300px;
+}
+
+.adminPanelBox > h4 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  color: var(--white-color);
+}
+
+.adminPanelBox > h4::after {
+  content: "";
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 2rem;
+  height: 0.13rem;
+  background-color: #9e06f7;
+  border-radius: 15px;
+  /* margin-top: 1rem; */
+}
+
+.adminPanelBox > p {
+  font-size: medium;
+  color: var(--font-light-color);
+}
+
+@media screen and (max-width: 500px) {
+  .adminPanelBox {
+    width: 250px;
+    height: auto;
+    margin: 20px 0;
+  }
+  .adminPanelBox__image > img {
+    width: 250px;
+    height: auto;
+  }
+}

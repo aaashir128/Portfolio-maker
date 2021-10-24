@@ -1,0 +1,124 @@
+.imageSection {
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.imageSection__left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.4;
+  width: 100%;
+}
+
+.imageSection__left > img {
+  min-width: 200px;
+  width: 70%;
+  /* height: 250px; */
+  object-fit: contain;
+  border-radius: 50%;
+  border: 8px solid #6f00ff;
+}
+
+.imageSection__right {
+  flex: 0.4;
+  font-family: "Gill Sans", "Trebuchet MS";
+}
+
+.imageSection__right > * {
+  width: 500px;
+}
+
+.subTitle {
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: var(--white-color);
+  text-align: center;
+  align-items: center;
+}
+
+.subTitle >a > button {
+  height: 2rem;
+
+}
+
+.highlight {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.specialization {
+  text-transform: capitalize;
+  letter-spacing: 0.8px;
+  text-align: justify;
+  font-size: large;
+  font-weight: 700;
+  color: #cf4faf;
+  font-family: "Gill Sans", "Trebuchet MS";
+}
+
+.aboutDetails {
+  padding: 1rem 0;
+}
+.aboutInfo {
+  display: flex;
+  flex-direction: column;
+}
+.aboutInfo__infoTitle {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__cv {
+  text-align: center;
+}
+.about__cv > button {
+  height: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .imageSection__right {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .imageSection__left {
+    margin-top: -80px;
+  }
+  .imageSection__left > img {
+    min-width: 150px;
+  }
+  .subTitle {
+    max-width: 100%;
+    text-align: center;
+  }
+  .aboutDetails {
+    font-size: small;
+    max-width: 100%;
+    text-align: center;
+  }
+  .aboutInfo {
+    margin: 0 10px;
+    width: 90%;
+    justify-content: space-around;
+    font-size: smaller;
+  }
+  .aboutInfo__infoTitle {
+    justify-content: space-between;
+  }
+  .aboutInfo__infoTitle > h5 {
+    font-size: x-small;
+    text-align: center;
+  }
+  .specialization {
+    font-size: smaller;
+  }
+  .highlight {
+    font-size: smaller;
+  }
+}

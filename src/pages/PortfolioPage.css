@@ -1,0 +1,25 @@
+.portfolioPage {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+  height: 100vh;
+  background-color: var(--background-dark-color);
+ width: max-content;
+ overflow: auto;
+
+
+}
+
+.portfolioPage__boxes{
+  display: flex;
+
+}
+
+
+@media screen and (max-width: 1199px) {
+  .portfolioPage {
+    flex: 1;
+    width: 100%;
+
+  }
+}

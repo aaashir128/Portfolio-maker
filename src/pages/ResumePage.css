@@ -1,0 +1,35 @@
+.resumePage {
+  display: flex;
+  flex-direction: column;
+  flex: 0.75;
+  height: 100vh;
+  background-color: var(--background-dark-color);
+ overflow: auto;
+}
+
+.resume__detailsIcon {
+  display: flex;
+  color: var(--white-color);
+  margin: 40px;
+  align-items: center;
+}
+
+.resume__detailsIcon > h1 {
+  margin-left: 30px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.resume__detailsIcon > .MuiSvgIcon-root {
+  font-size: 29px;
+  margin-left: 10px;
+}
+
+
+@media screen and (max-width: 1199px) {
+  .resumePage {
+    flex: 1;
+    width: 100%;
+
+  }
+}

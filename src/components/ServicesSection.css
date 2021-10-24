@@ -1,0 +1,10 @@
+.servicesSection {
+  display: flex;
+  flex-direction: column;
+}
+
+.servicesSection__services {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}

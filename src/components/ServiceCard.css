@@ -1,0 +1,47 @@
+.serviceCard{
+    margin: auto;
+    padding: 1.2rem;
+    border: 1px solid skyblue;
+    height: 17rem;
+    width: 14rem;
+    margin-bottom: 1.5rem;
+}
+
+.serviceCard__image{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.serviceCard__image > img{
+    width: 100%;
+    height: 6rem;
+  
+}
+
+
+.serviceCard > h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+    color: var(--white-color);
+}
+
+.serviceCard > h4::after {
+    content: "";
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 2rem;
+    height: 0.13rem;
+    background-color: #9e06f7;
+    border-radius: 15px;
+    /* margin-top: 1rem; */
+}
+
+.serviceCard > p {
+    font-size: medium;
+    color: var(--font-light-color);
+}

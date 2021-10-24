@@ -1,4 +1,31 @@
+*{
+  margin: 0;
+}
+h5{
+  color: var(--white-color);
+}
+button{
+  /* width: 40%; */
+  height: 2.5rem;
+  align-self: center !important;
+  font-size: large;
+  font-weight: 600;
+  text-transform: inherit;
+}
+input {
+  height: 2rem;
+  background-color: transparent;
+  color: var(--white-color);
+  padding-left: 5%;
+  margin-bottom: 15px;
+  font-size: larger;
+  outline-width: 0;
+  border: 1px solid var(--primary-color-light);
+  min-width: 90%;
+}
 body {
+  background-color: var(--font-dark-color);
+  color: var(--font-light-color);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

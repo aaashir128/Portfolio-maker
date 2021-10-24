@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.app {
+    display: flex;
+    background-color: #10121a;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  :root {
+    --primary-color: #007bff;
+    --primary-color-light: #057fff;
+    --secondary-color: #6c757d;
+    --background-dark-color: #10121a;
+    --background-dark-grey: #191d2b;
+    --border-color: #2e344e;
+    --background-light-color: #f1f1f1;
+    --background-light-color-2: rgba(3, 127, 255, 0.3);
+    --white-color: #fff;
+    --font-light-color: #a4acc4;
+    --font-dark-color: #313131;
+    --font-dark-color-2: #151515;
+    --sidebar-dark-color: #191d2b;
+    --scrollbar-bg-color: #383838;
+    --scrollbar-thump-color: #6b6b6b;
+    --scrollbar-track-color: #383838;
   }
-  to {
-    transform: rotate(360deg);
+  .light-theme {
+    --primary-color: #007bff;
+    --primary-color-light: #057fff;
+    --secondary-color: #6c757d;
+    --background-dark-color: #f1f1f1;
+    --background-dark-grey: #191d2b;
+    --border-color: #cbced8;
+    --background-light-color: #f1f1f1;
+    --background-light-color-2: rgba(3, 127, 255, 0.3);
+    --white-color: #151515;
+    --font-light-color: #a4acc4;
+    --font-dark-color: #313131;
+    --font-dark-color-2: #151515;
+    --sidebar-dark-color: #e4e4e4;
+    --scrollbar-bg-color: #383838;
+    --scrollbar-thump-color: #6b6b6b;
+    --scrollbar-track-color: #383838;
   }
-}
+  .dark-theme {
+    --primary-color: #007bff;
+    --primary-color-light: #057fff;
+    --secondary-color: #6c757d;
+    --background-dark-color: #10121a;
+    --background-dark-grey: #191d2b;
+    --border-color: #2e344e;
+    --background-light-color: #f1f1f1;
+    --background-light-color-2: rgba(3, 127, 255, 0.3);
+    --white-color: #fff;
+    --font-light-color: #a4acc4;
+    --font-dark-color: #313131;
+    --font-dark-color-2: #151515;
+    --sidebar-dark-color: #191d2b;
+    --scrollbar-bg-color: #383838;
+    --scrollbar-thump-color: #6b6b6b;
+    --scrollbar-track-color: #383838;
+  }
+  
+  ::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    background-color: #383838;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #007bff;
+  }
+  ::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #383838;
+  }
+  
+  .lightDarkMode {
+    position: absolute;
+    top: 25%;
+    right: 0.6%;
+    background-color: var(--background-dark-color);
+    width: 8rem;
+    height: 2rem;
+    z-index: 15;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  svg {
+    display: flex;
+    align-items: center;
+    font-size: 1.7rem !important;
+    color: var(--white-color) !important;
+  }
+  
+  @media screen and (max-width: 1200px) {
+  }
+  

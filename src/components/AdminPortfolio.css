@@ -1,0 +1,201 @@
+.adminPortfolio{
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.adminPortfolio__container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+
+}
+
+.adminPortfolio__containerTop{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+ 
+}
+.adminPortfolio__containerTop > .MuiIconButton-root{
+    width: 50px;
+    height: 50px;
+    background-color: var(--primary-color);
+}
+.adminPortfolio__containerTop > button {
+    height: 1.5rem;
+    width: 50%;
+    margin: 10px;
+    background-color: var(--white-color);
+    color: var(--background-dark-color);
+    font-size: large;
+    font-weight: 500;
+
+}
+
+.adminPortfolio__containerImg{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 200px;
+}
+
+.adminPortfolio__containerImg > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.adminPortfolio__containertxt{
+    display: flex;
+    flex-direction: column;
+}
+
+.adminPortfolio__containertxtHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 5px;
+}
+.adminPortfolio__containertxtHead > h4{
+    color: var(--primary-color);
+}
+
+.adminPortfolio__containertxtHead > small{ 
+    color: var(--font-light-color);
+}
+.adminPortfolio__containertxtDetails{
+    display: flex;
+}
+.adminPortfolio__containertxtDetails > p {
+    color: var(--white-color);
+    margin: 10px;
+    font-size: 13px;
+
+}
+
+.adminPortfolio__containertxtUrl{
+    display: flex;
+    flex-direction: column;
+}
+.adminPortfolio__containertxtUrl > h5 {
+    color: var(--white-color);
+    font-size: 12px;
+    margin: 0 10px ;
+   
+}
+.adminPortfolio__containertxtUrl > p {
+    color: var(--font-light-color);
+    font-size: 13px;
+    margin: 0 5px 5px 5px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+  
+  }
+  
+  @media screen and (max-width: 885px) {
+    .adminPortfolio__container{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 270px;
+        height: 500px;
+    }
+    .adminPortfolio__containerImg{
+        display: flex;
+        flex-direction: column;
+        width: 270px;
+        height: 200px;
+    }
+    
+  }
+
+  @media screen and (max-width: 810px) {
+    .adminPortfolio__container{
+        width: 450px;
+    }
+    .adminPortfolio__containerImg{
+        width: 450px;
+    }
+    .adminPortfolio__containertxtUrl > h5 {      
+        font-size: 15px;   
+    }
+    .adminPortfolio__containertxtUrl > p {
+        font-size: 15px;
+    }
+    .adminPortfolio__containertxtDetails > p {
+        font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 577px) {
+    .adminPortfolio__container{
+         width: 360px;  
+    }
+    .adminPortfolio__containerImg{
+        width: 360px;
+    }
+  }
+  @media screen and (max-width: 490px) {
+    .adminPortfolio__container{
+         width: 300px;  
+         height: 460px;
+    }
+    .adminPortfolio__containerImg{
+        width: 300px;
+    }
+    .adminPortfolio__containertxtUrl > h5 {      
+        font-size: 13px;   
+    }
+    .adminPortfolio__containertxtUrl > p {
+        font-size: 13px;
+    }
+    .adminPortfolio__containertxtDetails > p {
+        font-size: 13px;
+    }
+    .adminPortfolio__containerTop > .MuiIconButton-root{
+        width: 30px;
+        height: 30px;
+        background-color: var(--primary-color);
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .adminPortfolio__container{
+         width: 270px;  
+    }
+    .adminPortfolio__containerImg{
+        width: 270px;
+    }
+    .adminPortfolio__containertxtUrl > h5 {      
+        font-size: 12px;   
+    }
+    .adminPortfolio__containertxtUrl > p {
+        font-size: 12px;
+    }
+    .adminPortfolio__containertxtDetails > p {
+        font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 365px) {
+    .adminPortfolio__container{
+         width: 250px;  
+    }
+    .adminPortfolio__containerImg{
+        width: 250px;
+    }
+    .adminPortfolio__containertxtUrl > h5 {      
+        font-size: 11px;   
+    }
+    .adminPortfolio__containertxtUrl > p {
+        font-size: 11px;
+    }
+    .adminPortfolio__containertxtDetails > p {
+        font-size: 11px;
+    }
+  }
